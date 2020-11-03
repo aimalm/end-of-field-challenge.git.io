@@ -1,0 +1,56 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.card-container{
+    height: 312px;
+    width: 373px;
+    outline: rgb(109, 3, 3) 6px solid;
+    outline-offset: -5px;
+    z-index: 12;
+    position: absolute;
+}
+.slogan-container{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: -10px;
+}
+.countdown-container{
+    text-align: center;
+    font-weight: 600;
+
+
+}
+.model{
+    color: darkgreen;
+}
+.buttom_section{  
+    background-color: rgb(48, 42, 42);
+    height: 65px;
+    padding-left: 75px;
+    padding-top: 20px;
+
+}
+.btn-container {
+    padding-left: 50px;
+    width: 200px;
+    height: 30px;
+    text-decoration: none;
+    font-weight: 800;
+    background-color: rgb(245, 169, 6);
+    padding: 10px;
+    border-radius: 5px;
+}
+.hammer{
+    height: auto;
+    width: 20px;
+}
+.btn-container a{
+    text-decoration: none;
+    font-weight: 800;
+    color: rgb(39, 35, 35);
+  
+}
