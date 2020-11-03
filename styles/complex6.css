@@ -9,6 +9,9 @@ body{
     height: 337;
     padding: 20px;
 }
+.title h2{
+    color: #200040;
+}
 hr{
     color: rgba(255, 248, 220, 0.171);
     margin-right: -20px;
@@ -21,22 +24,27 @@ font-size: 11px;
 }
 table {
     border-collapse: collapse;
-
-
   }
  
 .rows{
     width: 400px;
     padding: 15px;
+    color: #200040;
 
 }
 .col2{
     padding: 10px;
+    color: #200040;
+
+}
+.second-col{
+    color: black;
 }
 .first-row{
-    background-color: rgb(228, 196, 89);
+    background-color: #FEE500;
     border: black solid 1px;
     border-radius: 5px;
+    color: black;
 
 }
 

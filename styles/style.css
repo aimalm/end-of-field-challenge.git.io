@@ -5,10 +5,13 @@ body{
 .card-container{
     height: 312px;
     width: 373px;
-    outline: rgb(109, 3, 3) 6px solid;
+    outline: #A80021 6px solid;
     outline-offset: -5px;
     z-index: 12;
     position: absolute;
+}
+hr{
+    color: rgba(255, 248, 220, 0.171);
 }
 .slogan-container{
     display: flex;
@@ -21,15 +24,21 @@ body{
 .countdown-container{
     text-align: center;
     font-weight: 600;
-
-
+}
+.countdown{
+    font-family: 'Roboto', sans-serif;
+    font-weight:700 ;
+}
+.reduction{
+    font-weight: 500;
+    font-size: 14px;
 }
 .model{
-    color: darkgreen;
+    color: #00BA00;
 }
 .buttom_section{  
     background-color: rgb(48, 42, 42);
-    height: 69px;
+    height: 72px;
     padding-left: 75px;
     padding-top: 20px;
 
@@ -40,7 +49,7 @@ body{
     height: 30px;
     text-decoration: none;
     font-weight: 800;
-    background-color: rgb(245, 169, 6);
+    background-color: #FFD400;
     padding: 10px;
     border-radius: 5px;
 }
@@ -51,6 +60,6 @@ body{
 .btn-container a{
     text-decoration: none;
     font-weight: 800;
-    color: rgb(39, 35, 35);
+    color: #383838;
   
 }
